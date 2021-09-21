@@ -13,7 +13,7 @@ title: The Random-Number-Guesser
 An meiner Schule (BBBaden) haben wir den Auftrag bekommen ein Programm zu programmieren, bei der man eine zufällige Zahl zwischen 1 und 100 schreiben kann kann und dann sagt einem das Programm ob man richtig liegt oder ob die Zahl tier oder höher ist als getippt.
 
 ## Ziele
--Ich kann den While-Loop in Kombination mit dem If befehl.
+-Ich kann den While-Loop in Kombination mit dem If Befehl.
 
 -Ich kann eine Zufällige Zahl programmieren.
 
@@ -76,7 +76,7 @@ Ich könnte beim nächsten mal etwas besser planen was ich wann machen soll, den
 ### Verifikation 
 Die Ziele wurden ereicht: 
 
--Denn ich kann nun den While-Loop in Kombination mit dem If befehl
+-Denn ich kann nun den While-Loop in Kombination mit dem If Befehl
 
 -Denn ich kann eine Zufällige Zahl generieren
 
