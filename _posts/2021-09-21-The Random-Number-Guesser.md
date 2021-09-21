@@ -75,6 +75,7 @@ Ich könnte beim nächsten mal etwas besser planen was ich wann machen soll, den
 
 ### Verifikation 
 Die Ziele wurden ereicht: 
+
 -Denn ich kann nun den While-Loop in Kombination mit dem If befehl
 
 -Denn ich kann eine Zufällige Zahl generieren
