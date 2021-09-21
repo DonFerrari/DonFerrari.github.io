@@ -82,4 +82,3 @@ Die Ziele wurden ereicht:
 
 -Denn es ist simpel gestaltet
 
-
