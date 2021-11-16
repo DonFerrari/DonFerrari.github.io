@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gruppenarbeit: Vokabelabfrage per .csv-Datei
+title: Gruppenarbeit Vokabelabfrage per .csv-Datei
 ---
 
 
@@ -8,7 +8,7 @@ title: Gruppenarbeit: Vokabelabfrage per .csv-Datei
 
 
 
-# Gruppenarbeit: Vokalabfrage per .csv-Datei
+
 
 
 
