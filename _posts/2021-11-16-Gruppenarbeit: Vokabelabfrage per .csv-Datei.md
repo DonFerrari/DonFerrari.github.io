@@ -67,9 +67,9 @@ Hier ist ein Video dazu: ---> [video](https://www.youtube.com/watch?v=zx16Kk15Uz
 ### Reflektion
 Das Programm ist vollständig und funktioniert einwandfrei. Wir sind sehr zufrieden damit. Wir haben auch als Team gut gearbeitet und hatten wenig Probleme beim zusammen arbeiten. Ich habe neu gelernt, wie man .csv-Dateien aufrufen kann mit dem Programm.
 
-Wir hatten Schwierigkeiten beim abfragen der Wörter und beim speichern der falsch geschrieben Wörter. Aber das hat sich dann auch erledigt.
+Wir hatten Schwierigkeiten beim Abfragen der Wörter und beim Speichern der falsch geschrieben Wörter. Aber das hat sich dann auch erledigt.
 
-Beim nächsten mal sollten wir ein Bisschen mehr besprechen wer was macht.
+Beim nächsten Mal sollten wir ein Bisschen mehr besprechen wer was macht.
 
 ### Verifikation 
 Die Ziele wurden ereicht: 
