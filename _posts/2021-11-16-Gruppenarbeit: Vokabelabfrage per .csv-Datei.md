@@ -19,9 +19,6 @@ An meiner Schule (BBBaden) haben wir den Auftrag bekommen ein Programm mit C# zu
 ## Ziele
 -Das Programm kann Daten aus einer .csv-Datei aufrufen.
 
--Das Programm kann Eingaben überprüfen und falsche Antworten wieder abfragen.
-
--Das Programm kann Highscores in einer .csv-Datei speichern.
 
 
 ## Inhalt
@@ -76,9 +73,6 @@ Die Ziele wurden ereicht:
 
 -Denn, das Programm kann Daten aus einer Datei aufrufen. ✓✓
 
--Denn, das Programm kann Eingaben überprüfen und falsche Antworten wieder abfragen. ✓✓
-
--Denn, das Programm kann Highscores in einer Datei speichern. ✓✓
 
 
 
