@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Random-Number-Guesser
+title: Gruppenarbeit: Vokabelabfrage per .csv-Datei
 ---
 
 
@@ -8,16 +8,20 @@ title: The Random-Number-Guesser
 
 
 
-## Aufgabestellung
+# Gruppenarbeit: Vokalabfrage per .csv-Datei
 
-An meiner Schule (BBBaden) haben wir den Auftrag bekommen ein Programm zu programmieren, bei der man eine zufällige Zahl zwischen 1 und 100 schreiben kann kann und dann sagt einem das Programm ob man richtig liegt oder ob die Zahl tier oder höher ist als getippt.
+
+
+## Aufgabestellung 
+
+An meiner Schule (BBBaden) haben wir den Auftrag bekommen ein Programm mit C# zu programmieren, bei der man ein Programm programmieren sollte, das Vokabeln einer Datei abfragt. Der Benutzer kann dann die Wörter übersetzen.
 
 ## Ziele
--Ich kann den While-Loop in Kombination mit dem If Befehl.
+-Das Programm kann Daten aus einer .csv-Datei aufrufen.
 
--Ich kann eine Zufällige Zahl programmieren.
+-Das Programm kann Eingaben überprüfen und falsche Antworten wieder abfragen.
 
--Das Programm ist simpel gestaltet.
+-Das Programm kann Highscores in einer .csv-Datei speichern.
 
 
 ## Inhalt
@@ -27,58 +31,54 @@ Ich habe nun 3 Inhalte:
 3. Ein Video vom Code und Programm
 
 ### Inhalt 1
-![Code](https://snipboard.io/nhdMb9.jpg)
+
+Hier ist ein Bild des Programms.
+![Code](https://snipboard.io/ornE53.jpg)
+
 ### Inhalt 2
+
+Hier ist ein Teil des Codes.
+
 ```
- if (input < random && input > 0)
-                            {
-                                Console.WriteLine("zu niedrig");
-                                ++versuche;
+ if (sprache == "Italienisch" || sprache == "i" || sprache == "I" || sprache == "italienisch")
+    {
+        string inPath = @"italianwords.csv";
+        string text = File.ReadAllText(inPath);
 
-                            }
-                            else if (input > random && input < 101)
-                            {
-                                Console.WriteLine("zu hoch");
-                                ++versuche;
-
-                            }
-                            else if (input > 101 || input < 0 || input == 0)
-                            {
-                                Console.WriteLine("Es soll zwischen 1 und 100 sein!");
-                                
-
-                            }
-                            else if (input == random)
-                            {
-                                Console.WriteLine("Richtig!!");
+        string[] lines = text.Split("\r\n");
+        int words = lines.Length;
+        string[] italienisch = new string[words];
+        string[] deutsch = new string[words];
 
 
-                                Console.ForegroundColor = ConsoleColor.Blue;
-
-                                Console.WriteLine("Bravo du hast es geschaft mit " + versuche + " Versuch(e) ");
-                                Console.WriteLine("Willst du nochmal spielen?[ja/nein]");
-                                start = Console.ReadLine();
-                                break;
-
-                            }
+        for (int line = 0; line < lines.Length; line++)
+            {
+               string[] items = lines[line].Split(',');
+               italienisch[line] = items[0];
+               deutsch[line] = items[1];
+            }
 ```
 
 ### Inhalt 3
-Hier ist ein Video dazu: ---> [video](https://www.youtube.com/watch?v=ak6MK-RCAaQ)
+Hier ist ein Video dazu: ---> [video](https://www.youtube.com/watch?v=zx16Kk15Uz8)
 
 ## Reflektion und Verifikation
 
 ### Reflektion
-Das Programm ist vollständig und funktioniert einwandfrei. Ich bin sehr zufrieden damit.
+Das Programm ist vollständig und funktioniert einwandfrei. Wir sind sehr zufrieden damit. Wir haben auch als Team gut gearbeitet und hatten wenig Probleme beim zusammen arbeiten. Ich habe neu gelernt, wie man .csv-Dateien aufrufen kann mit dem Programm.
 
-Ich könnte beim nächsten mal etwas besser planen was ich wann machen soll, denn manchmal habe ich nicht das gemacht was ich vor hatte oder sogar zu viel auf einmal gemacht.
+Wir hatten Schwierigkeiten beim abfragen der Wörter und beim speichern der falsch geschrieben Wörter. Aber das hat sich dann auch erledigt.
+
+Beim nächsten mal sollten wir ein Bisschen mehr besprechen wer was macht.
 
 ### Verifikation 
 Die Ziele wurden ereicht: 
 
--Denn ich kann nun den While-Loop in Kombination mit dem If Befehl
+-Denn, das Programm kann Daten aus einer Datei aufrufen. ✓✓
 
--Denn ich kann eine Zufällige Zahl generieren
+-Denn, das Programm kann Eingaben überprüfen und falsche Antworten wieder abfragen. ✓✓
 
--Denn es ist simpel gestaltet
+-Denn, das Programm kann Highscores in einer Datei speichern. ✓✓
+
+
 
