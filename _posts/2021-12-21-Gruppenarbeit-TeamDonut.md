@@ -22,13 +22,13 @@ Bei diesem Portfolio lernt man:
 
 ## Inhalt
 Ich habe nun 3 Inhalte:
-1. Ein Bild vom Programm
+1. Ein Bild vom Code
 2. Ein Ausschnitt vom Code
 3. Ein Video vom Fenster-Wechsel (Gameover und richtige Antwort)
 
 ### Inhalt 1
 
-Hier ist ein Bild des Programms.
+Hier ist ein Bild des Codes.
 ![Code](https://snipboard.io/QFlw5D.jpg)
 ### Inhalt 2
 
