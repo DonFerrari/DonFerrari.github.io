@@ -8,7 +8,7 @@ title: Gruppenarbeit TeamDonut (QuizSpiel)
 
 ## Aufgabestellung 
 
-An meiner Schule (BBBaden) haben wir den Auftrag bekommen ein Quizspiel mit C# zu programmieren. Dieser sollte dann einwandfrei laufen. 
+An meiner Schule (BBBaden) haben wir den Auftrag bekommen ein Quizspiel mit C# zu programmieren. Wir haben dieses Programm mit C# erstellt und Windows Forms genutzt
 
 ## Ziele
 
